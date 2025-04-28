@@ -1,0 +1,11 @@
+/*comentario de css*/
+header{
+    background-color: aquamarine;
+}
+/*selector por id*/
+#colores{
+    color: rgb(198, 112, 185);
+    font-size: 2em; /*tamaño de fuente*/
+    text-align: center;
+    font-weight: 700;
+}

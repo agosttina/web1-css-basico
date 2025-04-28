@@ -1,0 +1,18 @@
+/* Estilos para la página web */
+
+header {
+    background-color: rgb(218, 247, 237);
+}
+
+body {
+    background-color: #d6f0d9;
+    font-size: 16px;
+}
+
+.encabezado {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 42px;
+color: rgb(127, 165, 255);
+}
