@@ -32,8 +32,42 @@ body {
     background-color: #dbf3df;
     /* modificar el color a elección */
 }
-p a {  
-    color: #e11111;  
+
+.a {
+    color: #e11111;
     text-decoration: none;
-    }
     
+}
+.c {
+color:#dbf3df
+}
+.bc {
+    background-color: aquamarine;
+}
+.fs {
+    font-size: small;
+}
+.fw {
+    font-weight: 800;
+}
+.fst {
+    font-style: oblique;
+}
+.ff {
+    font-family:'Courier New', Courier, monospace
+}
+.ta {
+    text-align: center;
+}
+.td {
+    text-decoration:overline; 
+}
+.tt {
+    text-transform:capitalize;
+}
+.ls {
+letter-spacing:inherit;
+}
+.lh {
+    line-height:inherit;
+}
