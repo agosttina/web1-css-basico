@@ -41,12 +41,11 @@ body {
 
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
-}
-
-footer {
     text-align: center;
-
 }
+
+
+
 
 #s3 span {
     color: #577aae;
@@ -60,14 +59,13 @@ h2 {
     background-color: #fff0f9;
 }
 
-body {
-    text-align: center;
-}
-section {
-   
+
+table {
+  margin: auto;
+  
 
 }
-table
+
 
 h2 {
     color: #2C4770;
@@ -82,4 +80,6 @@ ul {
 }
 footer {
     background-color: #ffe7f6;
+    text-align: center;
+
 }

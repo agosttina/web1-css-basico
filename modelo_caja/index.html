@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo de caja</title>
+    <style>
+        header {
+            background-color: bisque;
+            width: 100px;
+            height: 100px;
+            border-top: 5px solid cadetblue;
+            border-bottom: 5px solid cadetblue;
+             /*margin: 55px 125px; 55px top y bottom y 125px right y left*/
+            /* 45px; top rigth-left bottom*/
+            margin: 10px 20px 30px 40px; /*top right bottom left*/
+            padding: 45px;
+        }
+
+        table {
+            background-color: rgb(242, 248, 255);
+            width: 500px;
+            height: 300px;
+            border: 5px solid cadetblue;
+            border-spacing: 0px;
+            border-style:double;
+            /*margin: 55px 125px; 55px top y bottom y 125px right y left*/
+            /* 45px; top rigth-left bottom*/
+            margin: 10px 20px 30px 40px; /*top right bottom left*/
+            padding: 5px;
+        }
+
+        th {
+            border: 3px solid cadetblue;
+
+        }
+
+        td {
+            border: 3px solid cadetblue;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--cajas-->
+    <header>
+<!--una caja div con la letra R con un font-size de 2.5em-->
+<div>
+    r
+</div>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </tr>
+            <tr>
+                <td>Agostina</td>
+                <td>Fuentes</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Abril</td>
+                <td>Acuña</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Brunella</td>
+                <td>Badilla</td>
+                <td>16</td>
+            </tr>
+        </table>
+    </main>
+</body>
+
+</html>
