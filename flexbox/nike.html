@@ -5,128 +5,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Nunito:ital,wght@0,903;1,903&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
     <style>
+        .body {}
+
         .main {
             display: flex;
             align-items: center;
             justify-content: center;
             height: 100vh;
+
         }
 
-        .contenedor1 {
+        .filtro {
             display: flex;
-            
+            align-items: center;
             justify-content: space-between;
         }
 
-        .contenedor2 {
-            display: flex;
+        .productos {
+
             align-items: center;
-            
             justify-content: space-around;
-            
+            font-family: "Roboto Slab", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+
+
         }
 
-        .caja {
-            display: flex;
-            flex-direction: column;
+        .producto {
+
             
-            width: 200px;
-            gap: 10px;
             
             background-color: rgb(255, 255, 255);
+            gap: 50px;
+
         }
 
-        .imagen {
+        .filadeproducto {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
 
+        }
+
+
+        .imagenn {
+            display: flex;
         }
 
         .nombredelproducto {
+            font-weight: 690;
+            
 
         }
 
         .categoria {
-
+            color: rgb(164, 164, 164);
+            font-weight: 500;
+            
         }
 
-        .texto {
-
-        }
+        .texto {}
 
         .precio {
+            font-weight: 690;
 
         }
-        .caja1 {
+
+        .caja {
             display: flex;
-           
+            
+            align-items: center;
+            gap: 5px;
         }
-
-        .caja2 {
-            display: flex;
-            justify-content: space-between;
-        }
-
     </style>
 </head>
 
 <body>
+    <header>
+        <div class="filtro">
+            <div class="caja">
+                <div class="imagenn"><img src="../assets/img/pagina/miniaturas.png" alt="" width="15px"></div>
+                <div>Productos</div>
+            </div>
+
+            <div class="caja">
+                <div>Ocultar Filtros</div>
+                <div class="imagenn"><img src="../assets/img/pagina/settings-sliders.png" alt="filtros" width="15px">
+                </div>
+                <div>Ordenar por Más Reciente</div>
+                <div class="imagenn"><img src="../assets/img/pagina/flecha-hacia-abajo-para-navegar.png" alt="flecha" width="15px">
+                </div>
+            </div>
+    </header>
     <main>
-        <div class="contenedor1">
-            <div class="caja1"> 
-                <div class="imagen1"><img src="../assets/img/pagina/miniaturas.png" alt="" width="10px"></div>
-                <div class="texto1">Productos</div>
-            </div>
 
-            <div class="caja2">
-                <div class="texto1">Ocultar Filtros</div>
-                <div class="imagen1"><img src="../assets/img/pagina/settings-sliders.png" alt="filtros" width="10px"></div>
-                <div class="texto1">Ordenar por Más Reciente</div>
-                <div class="imagen1"><img src="../assets/img/pagina/flecha-hacia-abajo-para-navegar.png" alt="flecha" width="10px">
-                </div>
-            </div>
 
-        </div>
-        <div class="contenedor2">
-            
-            <div class="caja">
-                <div class="Imagen"><img src="../assets/img/pagina/pelota.webp" alt="pelota" width="200PX"></div>
-                <div class="nombreproducto">Premier League Academy</div>
-                <div class="categoria">Pelota de Fútbol Unisex</div>
-                <div class="precio">$60.000</div>
-            </div>
-            <div class="caja">
-                <div class="Imagen"><img src="../assets/img/pagina/mochilaheritage.webp" alt="mochila" width="200PX">
+
+
+        <div class="productos">
+            <div class="filadeproducto">
+                <div class="producto">
+                    <div class="Imagen"><img src="../assets/img/pagina/pelota.webp" alt="pelota" width="200PX">
+                    </div>
+                    <div class="nombredelproducto">Premier League Academy</div>
+                    <div class="categoria">Pelota de Fútbol Unisex</div>
+                    <div class="precio">$60.000</div>
                 </div>
-                <div class="nombredelproducto">Nike Heritage</div>
-                <div class="categoria">Mochila de Moda para Niño/a</div>
-                <div class="precio">$79.999</div>
-            </div>
-            <div class="caja">
-                <div class="Imagen"><img src="../assets/img/pagina/pelotapich.webp" alt="" width="200PX"></div>
-                <div class="nombredelproducto">Nike Pitch</div>
-                <div class="categoria">Pelota de Fútbol Unisex</div>
-                <div class="precio">$51.999</div>
-            </div>
-            <div class="caja">
-                <div class="Imagen"><img src="../assets/img/pagina/NK+FUTSAL+MAESTRO+-+HO23.avif" alt="" width="200PX">
+                <div class="producto">
+                    <div class="Imagen"><img src="../assets/img/pagina/mochilaheritage.webp" alt="mochila"
+                            width="200PX">
+                    </div>
+                    <div class="nombredelproducto">Nike Heritage</div>
+                    <div class="categoria">Mochila de Moda para Niño/a</div>
+                    <div class="precio">$79.999</div>
                 </div>
-                <div class="nombredelproducto">Nike Futsal Maestro</div>
-                <div class="categoria">Pelota de Fútbol Unisex</div>
-                <div class="precio">$62.999</div>
+                <div class="producto">
+                    <div class="Imagen"><img src="../assets/img/pagina/pelotapich.webp" alt="" width="200PX"></div>
+                    <div class="nombredelproducto">Nike Pitch</div>
+                    <div class="categoria">Pelota de Fútbol Unisex</div>
+                    <div class="precio">$51.999</div>
+                </div>
             </div>
-            <div class="caja">
-                <div class="Imagen"><img src="../assets/img/pagina/mochila.webp" alt="" width="200PX"></div>
-                <div class="nombredelproducto">Nike DriFIT Rise</div>
-                <div class="categoria">Gorro de Moda Unisex</div>
-                <div class="precio">$54.999</div>
-            </div>
-            <div class="caja">
-                <div class="Imagen"><img src="../assets/img/pagina/vincha.webp" alt="" width="200PX"></div>
-                <div class="nombredelproducto">Nike Fury Classic</div>
-                <div class="categoria">Vincha de Entrenamiento Unise</div>
-                <div class="precio">$31.499</div>
+            <div class="filadeproducto">
+                <div class="producto">
+                    <div class="Imagen"><img src="../assets/img/pagina/NK+FUTSAL+MAESTRO+-+HO23.avif" alt=""
+                            width="200PX">
+                    </div>
+                    <div class="nombredelproducto">Nike Futsal Maestro</div>
+                    <div class="categoria">Pelota de Fútbol Unisex</div>
+                    <div class="precio">$62.999</div>
+                </div>
+                <div class="producto">
+                    <div class="Imagen"><img src="../assets/img/pagina/mochila.webp" alt="" width="200PX"></div>
+                    <div class="nombredelproducto">Nike DriFIT Rise</div>
+                    <div class="categoria">Gorro de Moda Unisex</div>
+                    <div class="precio">$54.999</div>
+                </div>
+                <div class="producto">
+                    <div class="Imagen"><img src="../assets/img/pagina/vincha.webp" alt="" width="200PX"></div>
+                    <div class="nombredelproducto">Nike Fury Classic</div>
+                    <div class="categoria">Vincha de Entrenamiento Unisex</div>
+                    <div class="precio">$31.499</div>
+                </div>
             </div>
         </div>
+
     </main>
 </body>
 
