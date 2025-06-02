@@ -1,0 +1,46 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconos {
+    width: 30px;
+
+
+}
+
+.listaiconos {
+    display: flex;
+   list-style: none;
+    gap: 10px;
+}
+
+
+ul {
+    list-style: none;
+   
+}
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.ubi {
+    width: 20px;
+}
+
+.subfooter-container {
+display: flex;
+
+
+}
+.arg {
+    display: flex;
+}
