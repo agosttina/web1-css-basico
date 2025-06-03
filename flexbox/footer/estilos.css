@@ -2,34 +2,76 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
-    color: aliceblue;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-bottom: 1px solid gray;
 }
 
 .iconos {
     width: 30px;
+padding: 4px;
 
+
+}
+
+.columna1 {
+    text-transform: uppercase;
+    color: aliceblue;
+
+    font-weight: 800;
+    font-size: 17px;
+}
+
+
+.footer-seccion1 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.footer-seccion-ult{
+    padding-right: 80px;
+}
+
+.lista1 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    
+    
+    font-weight: 800;
+    text-decoration: none;
 
 }
 
 .listaiconos {
     display: flex;
-   list-style: none;
+
     gap: 10px;
 }
 
-
-ul {
-    list-style: none;
-   
+.pais {
+    color: aliceblue;
 }
-a {
+
+
+.cont {
+
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(170, 170, 170);
+}
+
+a {
+
+    color: rgb(193, 193, 193);
+
 }
 
 .ubi {
@@ -37,10 +79,36 @@ a {
 }
 
 .subfooter-container {
-display: flex;
+    display: flex; 
 
-
+    
+   
 }
+.subfooter-container1 {
+    display: flex;
+    padding: 5px;
+
+   
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
 .arg {
     display: flex;
+   
+}
+
+.boton {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.subfooter-container:last-child {
+   gap: 10px;
+}
+.footer-container:last-child {
+    padding: 30px;
+    border-top: 0,5px solid gray;
 }
