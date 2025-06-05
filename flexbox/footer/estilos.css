@@ -12,8 +12,8 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    margin-right: 30px;
-    margin-left: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
     border-bottom: 1px solid gray;
 }
 
@@ -80,25 +80,32 @@ a {
 
 .subfooter-container {
     display: flex; 
-
+    padding: 5px;
+    padding-top: 20px;
+padding-bottom: 10px;
     
    
 }
 .subfooter-container1 {
     display: flex;
     padding: 5px;
-
+padding-top: 20px;
+padding-bottom: 20px;
    
 }
 
 ul {
     list-style: none;
     padding: 0px;
+   
 }
 
 .arg {
     display: flex;
-   
+   padding-right: 10px;
+}
+li {
+    margin-bottom: 15px;
 }
 
 .boton {
@@ -111,4 +118,13 @@ ul {
 .footer-container:last-child {
     padding: 30px;
     border-top: 0,5px solid gray;
+}
+.mensaje {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+.whatsapp {
+   
+    width: 50px;
 }
