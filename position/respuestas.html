@@ -16,6 +16,38 @@
 ¿Cuál es la forma más común de mover un elemento con position relative?
 ¿En qué casos se puede utilizar z-index para controlar el orden de apilamiento de elementos?
 ¿Qué sucede cuando dos elementos tienen el mismo valor de z-index? Prueba su resultado y responde.
+¿Cuál es la principal diferencia entre position sticky y position fixed?
+En el siguiente ejemplo, ¿el valor top y right es en relación a qué elemento?
+<!DOCTYPE html>
+<html>
+<head>
+   <style>
+       .container {
+           width: 400px;
+           height: 300px;
+           background-color: lightgray;
+       }
+
+       .box {
+           width: 100px;
+           height: 100px;
+           background-color: blue;
+           position: absolute;
+           top: 50px;
+           right: 20px;
+       }
+   </style>
+</head>
+
+<body>
+   <div class="container">
+       <div class="box"></div>
+   </div>
+</body>
+</html>
+
+En el ejemplo anterior ¿qué agregarías para que la caja hija esté dentro de la caja padre?
+
 -->
 
 <p>El relativo se desplaza a base del movimiento de la pantalla, absoluta se posiciona de manera absoluta en una posicion relativa.</p>
@@ -23,6 +55,13 @@
 <p>z-index</p>
 <p>cuando quieras que el elemento este fijo</p>
 <p>cuando bajas la pagina queda en la parte superior</p>
-<p></p>
+<p>relative</p>
+<p>top, bottom, right, left</p>
+<p>cuando queres superponer un elemento</p>
+<p>se ven uno encima del otro</p>
+<p>el sticky se mueve fijo cuando bajas, pero en el contenedor, y el fixed queda fijo en la pantalla</p>
+<p>al body</p>
+<p>el container tiene que tener position relative</p>
 </body>
+
 </html>

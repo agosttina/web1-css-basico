@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .conteiner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgproducto {
+            width: 400px;
+        }
+
+        .superpuesto {
+            position: relative;
+width: 370px;
+
+
+
+        }
+
+        .conjunto {
+            position: absolute;
+
+        }
+
+        .estrella {
+            width: 20px;
+        }
+
+        .estrella2 {
+            width: 18px;
+        }
+
+        .favorito {
+            width: 20px;
+        }
+
+        .estrellas {
+            display: flex;
+        }
+
+        .descripcion {
+            display: flex;
+        }
+
+        .fav {
+            top: 0;
+            right: 0;
+
+
+        }
+
+        .agregar {
+            bottom: 0;
+            left: 0;
+
+        }
+        span {
+            text-decoration: line-through;
+            
+            color: rgb(111, 111, 111);
+            
+        }
+        .vendido {
+            background-color: rgb(195, 227, 254);
+            width: 110px;
+            color: rgb(0, 115, 255);
+        }
+        .precio {
+            color: rgb(21, 154, 0);
+        }
+        .texto {
+            width: 200px;
+        }
+        button {
+            background-color: rgb(46, 46, 255);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conteiner">
+        <div class="producto">
+            <div class="vendido">El más vendido</div>
+            <div class="superpuesto">
+                <div class="ftproducto"><a href="#"><img src="../assets/img/stitch/stitch.webp" class="imgproducto"
+                            ></a></div>
+                <div class="conjunto fav"><a href="#"><img src="../assets/img/stitch/heart.png" class="favorito"
+                            alt=""></a>
+                </div>
+                <div class="conjunto agregar">
+                    <button>
+                        + Agregar
+                    </button>
+                </div>
+            </div>
+
+            <div class="precio">Ahora $14.88 <span>$27.00</span></div>
+
+
+            <div class="texto">Bop It! Edición Disney Stitch Juego, Juego Disney con Licencia Oficial, Edades 8+...
+            </div>
+            <div class="descripcion">
+                <div class="estrellas">
+                    <div><img src="../assets/img/stitch/estrella.png" class="estrella"></div>
+                    <div><img src="../assets/img/stitch/estrella.png" class="estrella" alt=""></div>
+                    <div><img src="../assets/img/stitch/estrella.png" class="estrella" alt=""></div>
+                    <div><img src="../assets/img/stitch/estrella.png" class="estrella" alt=""></div>
+                    <div><img src="../assets/img/stitch/estrella-de-calificacion-medio-llena.png" class="estrella2"
+                            alt=""></div>
+                </div>
+                <div class="cali">391</div>
+            </div>
+        </div>
+        <div class="producto"></div>
+    </div>
+</body>
+
+</html>
