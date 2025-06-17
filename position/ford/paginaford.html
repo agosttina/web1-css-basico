@@ -9,84 +9,162 @@
         body {
             font-family: "FordAntenna", Arial, Helvetica, sans-serif !important;
         }
-        .conteiner {
+
+        main {
             display: flex;
             flex-direction: column;
-        }
-
-        .imgcamio {
-            width: 900px;
-        }
-
-        .imgs {
-            width: 300px;
-        }
-
-        .caja2 {
-            display: flex;
             align-items: center;
             justify-content: center;
         }
 
-        .titulo {
-            font-weight: 700;
-            font-size: larger;
+        .imagen-camioneta {
+            width: 900px;
         }
 
-        .textoseccion {
+        .imagenes-seccion {
+            width: 100%;
+            border-radius: 10px;
+            padding-top: 30px;
+            padding-bottom: 15px;
+        }
+
+        button {
+            border-radius: 20px;
+            border: 0;
+        }
+
+        .boton2 {
+            background-color: rgb(50, 146, 248);
+            color: white;
+            padding: 4px;
+
+        }
+
+        .opciones {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(0, 21, 52);
+            gap: 15px;
+
+            width: 1500px;
+        }
+
+        .camioneta {
+            position: relative;
+        }
+
+        .titulo-seccion {
+
+            font-weight: 500;
+            font-size: 25px;
+            color: white;
+            width: 190px;
+            padding-bottom: 10px;
+        }
+
+        .texto-seccion {
             font-size: small;
             width: 280px;
+            height: 70px;
+            color: white;
+            padding-bottom: 20px;
+        }
+
+        .boton {
+            padding-bottom: 30px;
         }
 
         .seccion {
-            width: 600px;
+            width: 300px;
+            border-right: 10px;
+
         }
-        .caja1 {
-            
-            /*position: relative;*/
+
+        .producto {
+            display: flex;
+
+            justify-content: center;
+            align-items: center;
         }
-        .pos {
-            /*position: absolute;*/
+
+        .posicion {
+            position: absolute;
+
+        }
+
+        .titulo-camioneta {
+            font-size: 40px;
+
+            bottom: 112px;
+            left: 30px;
+            color: white;
+        }
+
+        .boton-camioneta {
+            font-size: 40px;
+
+            bottom: 68px;
+            left: 35px;
+            color: white;
+
+        }
+
+        .texto-camioneta {
+            font-size: 10px;
+            bottom: 25px;
+            left: 31px;
+            color: white;
+        }
+
+        .boton1 {
+            padding: 7px;
+            font-size: 12px;
         }
     </style>
 </head>
 
 <body>
-    <div class="conteiner">
-        <div class="caja1">
-            <div class="imgcamioneta"><img class="imgcamio" src="./assets/camioneta.jpeg" alt="camioneta"></div>
-            <div class="pos texto1cami">Diesel Muscle</div>
-            <div class="pos botoncamioneta"><a href="#"><button>Explore Super Duty</button></a></div>
-            <div class="pos text2camio">Vehicle Details</div>
-        </div>
-        <div class="caja2">
+    <main>
+        <section class="producto">
+            <div class="camioneta">
+                <img class="imagen-camioneta" src="./assets/camioneta.jpeg" alt="camioneta">
+                <div class="posicion titulo-camioneta">Diesel Muscle</div>
+                <div class="posicion boton-camioneta"><a href="#"><button class="boton1">Explore Super Duty</button></a></div>
+                <div class="posicion texto-camioneta">Vehicle Details</div>
+            </div>
+
+        </section>
+        <section class="opciones">
             <div class="seccion">
-                <div class="imgseccion"><img class="imgs" src="./assets/img1.jpeg" alt=""></div>
-                <div class="titulo">Hands-Free Highway Driving</div>
-                <div class="textoseccion">Experience the magic of hands-free highway dring on 97% of controlled access
+                <div><img class="imagenes-seccion" src="./assets/img1.jpeg" alt=""></div>
+                <div class="titulo-seccion">Hands-Free Highway Driving</div>
+                <div class="texto-seccion">Experience the magic of hands-free highway dring on 97% of controlled
+                    access
                     highways in
                     US. and Canada.</div>
-                <div class="boton"><a href="#"><button>Explore BlueCruise</button></a></div>
+                <div class="boton"><a href="#"><button class="boton2">Explore BlueCruise</button></a></div>
             </div>
 
             <div class="seccion">
-                <div class="imgseccion"><img class="imgs" src="./assets/img2.jpeg" alt=""></div>
-                <div class="titulo">Ford Connected
+                <div><img class="imagenes-seccion" src="./assets/img2.jpeg" alt=""></div>
+                <div class="titulo-seccion">Ford Connected
                     Services</div>
-                <div class="textoseccion">Avallable features you can add-on to your Ford vehicle post-purchase to enrich
+                <div class="texto-seccion">Avallable features you can add-on to your Ford vehicle post-purchase to
+                    enrich
                     your ownership experience.</div>
-                <div class="boton"><a href="#"><button>Explore Connected Services</button></a></div>
+                <div class="boton"><a href="#"><button class="boton2">Explore Connected Services</button></a></div>
             </div>
 
             <div class="seccion">
-                <div class="imgseccion"><img class="imgs" src="./assets/img3.jpeg" alt=""></div>
-                <div class="titulo">Complimentary Mobile Service</div>
-                <div class="textoseccion">Our Ford Mobile Service technicians can perform a lot of the same services
+                <div><img class="imagenes-seccion" src="./assets/img3.jpeg" alt=""></div>
+                <div class="titulo-seccion">Complimentary Mobile Service</div>
+                <div class="texto-seccion">Our Ford Mobile Service technicians can perform a lot of the same services
                     remotely that we do in the dealership." Oll and fiter changes, brakes, and more.</div>
-                <div class="boton"><a href="#"><button>Explore Mobile Service</button></a></div>
-            </div>
+                <div class="boton"><a href="#"><button class="boton2">Explore Mobile Service</button></a></div>
+        </section>
 
-        </div>
+    </main>
 </body>
 
 </html>
